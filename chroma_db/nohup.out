@@ -1,0 +1,83 @@
+INFO:     Started server process [7531]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:36130 - "POST /query HTTP/1.1" 200 OK
+INFO:     152.56.4.69:54368 - "OPTIONS /query HTTP/1.1" 405 Method Not Allowed
+INFO:     127.0.0.1:54110 - "POST /query HTTP/1.1" 422 Unprocessable Entity
+INFO:     152.56.4.69:54369 - "OPTIONS /query HTTP/1.1" 405 Method Not Allowed
+INFO:     152.56.4.69:54369 - "OPTIONS /query HTTP/1.1" 405 Method Not Allowed
+INFO:     152.56.4.69:54419 - "OPTIONS /query HTTP/1.1" 405 Method Not Allowed
+INFO:     152.56.4.69:42304 - "OPTIONS /query HTTP/1.1" 405 Method Not Allowed
+INFO:     54.86.50.139:26121 - "POST /query%0A?Content-Type=application/json HTTP/1.1" 200 OK
+INFO:     152.56.4.69:6797 - "OPTIONS /query HTTP/1.1" 405 Method Not Allowed
+INFO:     152.56.4.69:54513 - "OPTIONS /query HTTP/1.1" 405 Method Not Allowed
+INFO:     152.56.4.69:54513 - "OPTIONS /query HTTP/1.1" 405 Method Not Allowed
+INFO:     152.56.4.69:54513 - "OPTIONS /query HTTP/1.1" 405 Method Not Allowed
+INFO:     152.56.4.69:6797 - "OPTIONS /query HTTP/1.1" 405 Method Not Allowed
+INFO:     54.86.50.139:36888 - "POST /query%0A?Content-Type=application/json HTTP/1.1" 200 OK
+INFO:     Started server process [7802]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+ERROR:    [Errno 98] error while attempting to bind on address ('0.0.0.0', 8000): address already in use
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     152.56.4.69:54735 - "OPTIONS /query HTTP/1.1" 405 Method Not Allowed
+INFO:     Started server process [7924]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+ERROR:    [Errno 98] error while attempting to bind on address ('0.0.0.0', 8000): address already in use
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     152.56.4.69:54830 - "OPTIONS /query HTTP/1.1" 405 Method Not Allowed
+INFO:     152.56.4.69:54830 - "OPTIONS /query HTTP/1.1" 405 Method Not Allowed
+INFO:     152.56.4.69:54830 - "OPTIONS /query HTTP/1.1" 405 Method Not Allowed
+INFO:     152.56.4.69:54830 - "OPTIONS /query HTTP/1.1" 405 Method Not Allowed
+INFO:     152.56.4.69:54830 - "OPTIONS /query HTTP/1.1" 405 Method Not Allowed
+INFO:     152.56.4.69:54830 - "OPTIONS /query HTTP/1.1" 405 Method Not Allowed
+INFO:     152.56.4.69:54831 - "OPTIONS /query HTTP/1.1" 405 Method Not Allowed
+INFO:     152.56.4.69:54878 - "OPTIONS /query HTTP/1.1" 405 Method Not Allowed
+INFO:     152.56.4.69:54878 - "OPTIONS /query HTTP/1.1" 405 Method Not Allowed
+INFO:     54.86.50.139:9983 - "POST /query%0A?Content-Type=application/json HTTP/1.1" 200 OK
+INFO:     Started server process [8050]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+ERROR:    [Errno 98] error while attempting to bind on address ('0.0.0.0', 8000): address already in use
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Started server process [8066]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+ERROR:    [Errno 98] error while attempting to bind on address ('0.0.0.0', 8000): address already in use
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Started server process [8130]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+ERROR:    [Errno 98] error while attempting to bind on address ('0.0.0.0', 8000): address already in use
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Started server process [8146]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+ERROR:    [Errno 98] error while attempting to bind on address ('0.0.0.0', 8000): address already in use
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Started server process [8546]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+ERROR:    [Errno 98] error while attempting to bind on address ('0.0.0.0', 8000): address already in use
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Started server process [8562]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+ERROR:    [Errno 98] error while attempting to bind on address ('0.0.0.0', 8000): address already in use
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Started server process [8581]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+ERROR:    [Errno 98] error while attempting to bind on address ('0.0.0.0', 8000): address already in use
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.

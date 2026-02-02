@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ChromaDB Query Interface</title>
+</head>
+<body>
+    <h2>ChromaDB Query Interface</h2>
+    <input id="query" placeholder="Type your query" size="50"/>
+    <button onclick="sendQuery()">Search</button>
+    <pre id="result"></pre>
+
+    <script>
+        async function sendQuery() {
+            const queryText = document.getElementById("query").value.trim(); // remove extra spaces/newlines
+            const resultBox = document.getElementById("result");
+
+            if (!queryText) {
+                resultBox.textContent = "Please enter a query.";
+                return;
+            }
+
+            try {
+                const res = await fetch("/query", {  // relative URL, same origin
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json"
+                    },
+                    body: JSON.stringify({ query: queryText, top_k: 2 })
+                });
+
+                if (!res.ok) {
+                    resultBox.textContent = "Error: " + res.status + " " + res.statusText;
+                    return;
+                }
+
+                const data = await res.json();
+                resultBox.textContent = JSON.stringify(data, null, 2);
+            } catch (err) {
+                resultBox.textContent = "Connection error: " + err;
+            }
+        }
+    </script>
+</body>
+</html>
